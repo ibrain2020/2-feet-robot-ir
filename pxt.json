@@ -1,0 +1,30 @@
+{
+    "name": "2 feet robot IR",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "DanceRobot": "github:zhuning239/dbit#f811a0fcf5e106751388e466077a2fd112e7f70b",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.2.13",
+        "tag": "v1.2.13",
+        "commits": "https://github.com/Microsoft/pxt-microbit/commits/5d5b348757b15c6d00f5b7f560fd69592ca29424",
+        "target": "4.0.17",
+        "pxt": "4.4.7",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
